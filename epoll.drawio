@@ -1,1 +1,79 @@
-<mxfile host="app.diagrams.net" modified="2020-11-18T02:30:45.069Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/86.0.4240.198 Safari/537.36" version="13.9.9" etag="JyZBqkzwvEJEO-3pLEo0" type="github"><diagram id="yQU9XVNkyh9_PEf1FD41">UzV2zq1wL0osyPDNT0nNUTV2VTV2LsrPL4GwciucU3NyVI0MMlNUjV1UjYwMgFjVyA2HrCFY1qAgsSg1rwSLBiADYTaQg2Y1AA==</diagram></mxfile>
+<mxfile host="app.diagrams.net" modified="2020-11-18T02:48:53.933Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/86.0.4240.198 Safari/537.36" etag="lBDZyB6dNyiWT2Yu1U8p" version="13.9.9" type="github">
+  <diagram id="yQU9XVNkyh9_PEf1FD41" name="Page-1">
+    <mxGraphModel dx="1422" dy="794" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="0O0ggUQHUPl4NejqoUbk-1" value="IO北桥芯片" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;" vertex="1" parent="1">
+          <mxGeometry x="160" y="120" width="80" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="0O0ggUQHUPl4NejqoUbk-2" value="CPU" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="160" y="40" width="80" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="0O0ggUQHUPl4NejqoUbk-3" value="显示器" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="40" y="120" width="80" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="0O0ggUQHUPl4NejqoUbk-4" value="主存储器" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="280" y="120" width="80" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="0O0ggUQHUPl4NejqoUbk-5" value="IO南桥芯片" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
+          <mxGeometry x="79" y="200" width="300" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="0O0ggUQHUPl4NejqoUbk-6" value="USB接口" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="25" y="280" width="60" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="0O0ggUQHUPl4NejqoUbk-7" value="磁盘通道" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="105" y="280" width="60" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="0O0ggUQHUPl4NejqoUbk-8" value="声频通道" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="185" y="280" width="60" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="0O0ggUQHUPl4NejqoUbk-9" value="Flash BIOS" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="265" y="280" width="60" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="0O0ggUQHUPl4NejqoUbk-10" value="网络接口" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="345" y="280" width="60" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="0O0ggUQHUPl4NejqoUbk-11" value="PCI扩展槽" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="414" y="185" width="45" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="0O0ggUQHUPl4NejqoUbk-16" value="" style="html=1;shadow=0;dashed=0;align=center;verticalAlign=middle;shape=mxgraph.arrows2.twoWayArrow;dy=0.65;dx=22;rotation=90;" vertex="1" parent="1">
+          <mxGeometry x="173.67000000000002" y="85" width="52.66" height="26.02" as="geometry" />
+        </mxCell>
+        <mxCell id="0O0ggUQHUPl4NejqoUbk-17" value="系统总线" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="210" y="91.02" width="55" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="0O0ggUQHUPl4NejqoUbk-19" value="" style="html=1;shadow=0;dashed=0;align=center;verticalAlign=middle;shape=mxgraph.arrows2.twoWayArrow;dy=0.65;dx=22;rotation=90;" vertex="1" parent="1">
+          <mxGeometry x="53.66999999999999" y="255" width="52.66" height="15" as="geometry" />
+        </mxCell>
+        <mxCell id="0O0ggUQHUPl4NejqoUbk-20" value="" style="html=1;shadow=0;dashed=0;align=center;verticalAlign=middle;shape=mxgraph.arrows2.twoWayArrow;dy=0.65;dx=22;rotation=90;" vertex="1" parent="1">
+          <mxGeometry x="108.66999999999999" y="255" width="52.66" height="15" as="geometry" />
+        </mxCell>
+        <mxCell id="0O0ggUQHUPl4NejqoUbk-21" value="" style="html=1;shadow=0;dashed=0;align=center;verticalAlign=middle;shape=mxgraph.arrows2.twoWayArrow;dy=0.65;dx=22;rotation=90;" vertex="1" parent="1">
+          <mxGeometry x="192.33999999999997" y="255" width="52.66" height="15" as="geometry" />
+        </mxCell>
+        <mxCell id="0O0ggUQHUPl4NejqoUbk-22" value="" style="html=1;shadow=0;dashed=0;align=center;verticalAlign=middle;shape=mxgraph.arrows2.twoWayArrow;dy=0.65;dx=22;rotation=90;" vertex="1" parent="1">
+          <mxGeometry x="265" y="255" width="52.66" height="15" as="geometry" />
+        </mxCell>
+        <mxCell id="0O0ggUQHUPl4NejqoUbk-23" value="" style="html=1;shadow=0;dashed=0;align=center;verticalAlign=middle;shape=mxgraph.arrows2.twoWayArrow;dy=0.65;dx=22;rotation=90;" vertex="1" parent="1">
+          <mxGeometry x="345" y="255" width="52.66" height="15" as="geometry" />
+        </mxCell>
+        <mxCell id="0O0ggUQHUPl4NejqoUbk-24" value="" style="html=1;shadow=0;dashed=0;align=center;verticalAlign=middle;shape=mxgraph.arrows2.twoWayArrow;dy=0.65;dx=22;rotation=90;" vertex="1" parent="1">
+          <mxGeometry x="173.67000000000002" y="170" width="52.66" height="26.02" as="geometry" />
+        </mxCell>
+        <mxCell id="0O0ggUQHUPl4NejqoUbk-25" value="" style="html=1;shadow=0;dashed=0;align=center;verticalAlign=middle;shape=mxgraph.arrows2.twoWayArrow;dy=0.65;dx=22;rotation=0;" vertex="1" parent="1">
+          <mxGeometry x="112.34000000000002" y="126.97999999999999" width="52.66" height="26.02" as="geometry" />
+        </mxCell>
+        <mxCell id="0O0ggUQHUPl4NejqoUbk-26" value="" style="html=1;shadow=0;dashed=0;align=center;verticalAlign=middle;shape=mxgraph.arrows2.twoWayArrow;dy=0.65;dx=22;rotation=0;" vertex="1" parent="1">
+          <mxGeometry x="234" y="126.97999999999999" width="52.66" height="26.02" as="geometry" />
+        </mxCell>
+        <mxCell id="0O0ggUQHUPl4NejqoUbk-27" value="" style="html=1;shadow=0;dashed=0;align=center;verticalAlign=middle;shape=mxgraph.arrows2.twoWayArrow;dy=0.65;dx=22;rotation=0;" vertex="1" parent="1">
+          <mxGeometry x="370" y="206.98999999999998" width="52.66" height="26.02" as="geometry" />
+        </mxCell>
+        <mxCell id="0O0ggUQHUPl4NejqoUbk-28" value="计算机结构图" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontStyle=1" vertex="1" parent="1">
+          <mxGeometry x="165" y="340" width="113.67" height="20" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
