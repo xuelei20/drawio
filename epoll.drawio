@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2020-11-18T07:42:07.995Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/86.0.4240.198 Safari/537.36" etag="tak2Y1xSwip55BDtdRdl" version="13.9.9" type="github">
+<mxfile host="app.diagrams.net" modified="2020-11-18T07:53:11.969Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/86.0.4240.198 Safari/537.36" etag="_dG0ajyCl44y_3wWGsO7" version="13.9.9" type="github">
   <diagram id="yQU9XVNkyh9_PEf1FD41" name="Page-1">
     <mxGraphModel dx="1422" dy="794" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -165,6 +165,12 @@
         <mxCell id="YSoHbs1g0Of7jDAoTYoA-34" value="文件列表(fd)&lt;br&gt;1&lt;br&gt;2&lt;br&gt;3&lt;br&gt;...&lt;br&gt;6000&lt;br&gt;..." style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="70" y="550" width="90" height="100" as="geometry" />
         </mxCell>
+        <mxCell id="YSoHbs1g0Of7jDAoTYoA-43" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="300" y="613" as="sourcePoint" />
+            <mxPoint x="378" y="613" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
         <mxCell id="YSoHbs1g0Of7jDAoTYoA-35" value="发送缓冲区(内核)&lt;br&gt;接收缓冲区(内核)&lt;br&gt;等待列表" style="shape=cylinder3;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;size=15;align=center;fillColor=#f5f5f5;strokeColor=#666666;fontColor=#333333;" vertex="1" parent="1">
           <mxGeometry x="204.67" y="550" width="95.33" height="100" as="geometry" />
         </mxCell>
@@ -187,11 +193,17 @@
             <mxPoint x="440" y="400" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="YSoHbs1g0Of7jDAoTYoA-39" value="调用recv()阻塞方法时，&lt;br&gt;进程A进入阻塞队列(不占用CPU资源)，&lt;br&gt;同时被该socket所引用" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;" vertex="1" parent="1">
-          <mxGeometry x="251" y="480" width="220" height="50" as="geometry" />
+        <mxCell id="YSoHbs1g0Of7jDAoTYoA-39" value="调用recv()阻塞方法时，&lt;br&gt;进程A进入阻塞队列(不占用CPU资源)，&lt;br&gt;同时被该socket所引用" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;" vertex="1" parent="1">
+          <mxGeometry x="291" y="480" width="220" height="50" as="geometry" />
         </mxCell>
-        <mxCell id="YSoHbs1g0Of7jDAoTYoA-40" value="当socket可读事件触发后，&lt;br&gt;操作系统将进程A重新放回就绪队列，&lt;br&gt;recv()可以返回数据到用户空间" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;" vertex="1" parent="1">
-          <mxGeometry x="311" y="575" width="220" height="50" as="geometry" />
+        <mxCell id="YSoHbs1g0Of7jDAoTYoA-40" value="1.计算机收到了对端传送的数据&lt;br&gt;2.网卡通过中断信号通知cpu有数据到达&lt;br&gt;3.cpu执行中断程序(内核)：&lt;br&gt;&amp;nbsp; 先将网络数据写入到对应socket的接收缓冲区&lt;br&gt;&amp;nbsp; 再唤醒进程A，放入就绪队列&lt;br&gt;4.recv()读取数据到用户空间，并返回" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;" vertex="1" parent="1">
+          <mxGeometry x="317.66" y="650" width="260" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="YSoHbs1g0Of7jDAoTYoA-41" value="用户地址空间" style="whiteSpace=wrap;html=1;aspect=fixed;fillColor=#fff2cc;strokeColor=#d6b656;" vertex="1" parent="1">
+          <mxGeometry x="377" y="570" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="YSoHbs1g0Of7jDAoTYoA-44" value="recv()返回" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;" vertex="1" parent="1">
+          <mxGeometry x="311" y="615" width="70" height="20" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
