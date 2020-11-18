@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2020-11-18T07:41:26.020Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/86.0.4240.198 Safari/537.36" etag="oqca063j0OKVMFboJoXL" version="13.9.9" type="github">
+<mxfile host="app.diagrams.net" modified="2020-11-18T07:42:07.995Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/86.0.4240.198 Safari/537.36" etag="tak2Y1xSwip55BDtdRdl" version="13.9.9" type="github">
   <diagram id="yQU9XVNkyh9_PEf1FD41" name="Page-1">
     <mxGraphModel dx="1422" dy="794" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -190,7 +190,7 @@
         <mxCell id="YSoHbs1g0Of7jDAoTYoA-39" value="调用recv()阻塞方法时，&lt;br&gt;进程A进入阻塞队列(不占用CPU资源)，&lt;br&gt;同时被该socket所引用" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;" vertex="1" parent="1">
           <mxGeometry x="251" y="480" width="220" height="50" as="geometry" />
         </mxCell>
-        <mxCell id="YSoHbs1g0Of7jDAoTYoA-40" value="当socket可读事件触发后，&lt;br&gt;操作系统将进程A重新放回就绪队列，&lt;br&gt;recv()可以返回数据" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;" vertex="1" parent="1">
+        <mxCell id="YSoHbs1g0Of7jDAoTYoA-40" value="当socket可读事件触发后，&lt;br&gt;操作系统将进程A重新放回就绪队列，&lt;br&gt;recv()可以返回数据到用户空间" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;" vertex="1" parent="1">
           <mxGeometry x="311" y="575" width="220" height="50" as="geometry" />
         </mxCell>
       </root>
