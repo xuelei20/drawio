@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2020-11-18T12:08:23.477Z" agent="5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/86.0.4240.198 Safari/537.36" etag="kyPZ0MiTYmK5I6XGqROz" version="13.9.9" type="github">
+<mxfile host="app.diagrams.net" modified="2020-11-18T13:11:53.947Z" agent="5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/86.0.4240.198 Safari/537.36" etag="C1W0JKiwqQ46XEvBK20o" version="13.9.9" type="github">
   <diagram id="yQU9XVNkyh9_PEf1FD41" name="Page-1">
     <mxGraphModel dx="1422" dy="794" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -316,11 +316,17 @@
         <mxCell id="jj7dlDyVsFg3a79DTdNf-32" value="fd2" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="521" y="1013" width="40" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="jj7dlDyVsFg3a79DTdNf-34" value="fd2" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="jj7dlDyVsFg3a79DTdNf-34" value="fd3" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="561" y="1013" width="40" height="40" as="geometry" />
         </mxCell>
         <mxCell id="jj7dlDyVsFg3a79DTdNf-35" value="&lt;div style=&quot;text-align: left&quot;&gt;&lt;span&gt;select维护一个数组，保存所有监听fd&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;text-align: left&quot;&gt;&lt;span&gt;&lt;br&gt;&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;text-align: left&quot;&gt;&lt;span&gt;每次调用select都需要将进程加入到所有监视socket的等待队列(第一次遍历)&lt;br&gt;&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;text-align: left&quot;&gt;&lt;span&gt;每次唤醒都需要从每个队列中移除(再一次遍历)&lt;br&gt;&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;text-align: left&quot;&gt;&lt;span&gt;&lt;br&gt;&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;text-align: left&quot;&gt;&lt;span&gt;当程序调用select时，内核会[先遍历一遍]socket，如果有socket有数据则返回&lt;br&gt;&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;text-align: left&quot;&gt;&lt;span&gt;进程被唤醒后，程序并不知道哪些socket收到数据，应用层[还需要遍历一次]&lt;br&gt;&lt;/span&gt;&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;" vertex="1" parent="1">
           <mxGeometry x="404" y="1060" width="420" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="jj7dlDyVsFg3a79DTdNf-37" value="fd4" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="601" y="1013" width="40" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="jj7dlDyVsFg3a79DTdNf-38" value="epoll高效多路IO复用" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;fontStyle=1" vertex="1" parent="1">
+          <mxGeometry x="283.99999999999994" y="1290" width="130" height="20" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
