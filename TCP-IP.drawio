@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2020-11-22T11:57:14.000Z" agent="5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/86.0.4240.198 Safari/537.36" etag="icpNM8ABUKkcE7VBlA9C" version="13.9.9" type="github">
+<mxfile host="app.diagrams.net" modified="2020-11-22T12:22:45.158Z" agent="5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/86.0.4240.198 Safari/537.36" etag="90BCU3QjcjY7qek5LpmU" version="13.9.9" type="github">
   <diagram id="Xt9xidFTfuUBzC-xDNx0" name="第 1 页">
-    <mxGraphModel dx="668" dy="777" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1422" dy="794" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -223,8 +223,14 @@
         <mxCell id="f5RlpMbCLp7nDTK8K7TU-87" value="Urgent Pointer(16bit)" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
           <mxGeometry x="460" y="650" width="180" height="20" as="geometry" />
         </mxCell>
-        <mxCell id="f5RlpMbCLp7nDTK8K7TU-88" value="TCP Options(可变长度)" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="80" y="680" width="640" height="40" as="geometry" />
+        <mxCell id="f5RlpMbCLp7nDTK8K7TU-88" value="TCP Options(可变长度 最大+40)" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="80" y="680" width="640" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="f5RlpMbCLp7nDTK8K7TU-90" value="Offset:给出首部中32 bit字的数目，需要这个值是因为任选字段的长度是可变的。这个字段占4bit(最多能 表示15个32bit的的字，&lt;br&gt;即4*15=60个字节的首部长度)，因此TCP最多有60字节的首部。然而，没有任选字段， 正常的长度是20字节。" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;" vertex="1" parent="1">
+          <mxGeometry x="80" y="780" width="690" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="f5RlpMbCLp7nDTK8K7TU-91" value="Window用于滑动窗口" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="80" y="820" width="150" height="20" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
