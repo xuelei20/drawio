@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2020-11-22T13:51:50.264Z" agent="5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/86.0.4240.198 Safari/537.36" etag="jV5-5xnSzikNOwpdPlBg" version="13.10.0" type="github">
+<mxfile host="app.diagrams.net" modified="2020-11-24T04:55:40.659Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/87.0.4280.66 Safari/537.36" etag="RRNbKbe1C5QtXfwtq2pl" version="13.10.0" type="github">
   <diagram id="Xt9xidFTfuUBzC-xDNx0" name="第 1 页">
-    <mxGraphModel dx="563" dy="777" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1422" dy="794" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -226,8 +226,59 @@
         <mxCell id="f5RlpMbCLp7nDTK8K7TU-88" value="TCP Options(可变长度 最大+40)" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="80" y="680" width="640" height="80" as="geometry" />
         </mxCell>
-        <mxCell id="5uUBZNAHBMfYTh1UcovI-1" value="TCP核心有三点：&lt;br&gt;1.Postive acknowledgement with retransmission;&lt;br&gt;2.Flow control using sliding window&lt;br&gt;3.Congestion control(包括slow star、congestion avoidance、fast retransmit等)" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;" vertex="1" parent="1">
+        <mxCell id="5uUBZNAHBMfYTh1UcovI-1" value="TCP核心有三点：&lt;br&gt;1.Postive acknowledgement with retransmission;&lt;br&gt;2.Flow control using sliding window&lt;br&gt;3.Congestion control(包括slow star、congestion avoidance、fast retransmit等)" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;" parent="1" vertex="1">
           <mxGeometry x="80" y="780" width="430" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="OU787CpGufShT57sqAW3-1" value="&lt;b&gt;HTTP协议&lt;/b&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;" vertex="1" parent="1">
+          <mxGeometry x="355" y="950" width="70" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="OU787CpGufShT57sqAW3-2" value="&lt;font color=&quot;#ff0000&quot;&gt;请求方法&lt;/font&gt; | 空格 | &lt;font color=&quot;#ff0000&quot;&gt;URI&lt;/font&gt; | 空格 | &lt;font color=&quot;#ff0000&quot;&gt;协议版本&lt;/font&gt; | 回车符 | 换行符" style="rounded=0;whiteSpace=wrap;html=1;align=left;fillColor=#ffe6cc;strokeColor=#d79b00;" vertex="1" parent="1">
+          <mxGeometry x="160" y="1000" width="330" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="OU787CpGufShT57sqAW3-3" value="请求行" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;" vertex="1" parent="1">
+          <mxGeometry x="110" y="1005" width="50" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="OU787CpGufShT57sqAW3-4" value="请求头" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;" vertex="1" parent="1">
+          <mxGeometry x="110" y="1037" width="50" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="OU787CpGufShT57sqAW3-5" value="&lt;div style=&quot;text-align: center&quot;&gt;&lt;span&gt;头部字段 名：值 | 回车符 | 换行符&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;text-align: center&quot;&gt;&lt;span&gt;...&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;text-align: center&quot;&gt;头部字段 名：值 | 回车符 | 换行符&lt;br&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;align=left;fillColor=#f5f5f5;strokeColor=#666666;fontColor=#333333;" vertex="1" parent="1">
+          <mxGeometry x="160" y="1030" width="330" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="OU787CpGufShT57sqAW3-6" value="回车符 | 换行符" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#f5f5f5;strokeColor=#666666;fontColor=#333333;" vertex="1" parent="1">
+          <mxGeometry x="160" y="1080" width="90" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="OU787CpGufShT57sqAW3-7" value="数据" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#f5f5f5;strokeColor=#666666;fontColor=#333333;" vertex="1" parent="1">
+          <mxGeometry x="160" y="1110" width="330" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="OU787CpGufShT57sqAW3-10" value="请求数据" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;" vertex="1" parent="1">
+          <mxGeometry x="100" y="1110" width="60" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="OU787CpGufShT57sqAW3-11" value="POST /form/entry HTTP/1.1&lt;br&gt;Host: hackr.jp&lt;br&gt;Connection: keep-alive&lt;br&gt;Content-Type: application/x-www-form-urlencoded&lt;br&gt;Content_Length=16&lt;br&gt;&lt;br&gt;name=ueno&amp;amp;age=37" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="520" y="977" width="300" height="170" as="geometry" />
+        </mxCell>
+        <mxCell id="OU787CpGufShT57sqAW3-12" value="&lt;font color=&quot;#ff0000&quot;&gt;协议版本&lt;/font&gt; | 空格 | &lt;font color=&quot;#ff0000&quot;&gt;状态码&lt;/font&gt; | 空格 | &lt;font color=&quot;#ff0000&quot;&gt;状态码描述&lt;/font&gt; | 回车符 | 换行符" style="rounded=0;whiteSpace=wrap;html=1;align=left;fillColor=#fff2cc;strokeColor=#d6b656;" vertex="1" parent="1">
+          <mxGeometry x="160" y="1220" width="330" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="OU787CpGufShT57sqAW3-13" value="状态行" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;" vertex="1" parent="1">
+          <mxGeometry x="110" y="1225" width="50" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="OU787CpGufShT57sqAW3-14" value="响应头" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;" vertex="1" parent="1">
+          <mxGeometry x="110" y="1257" width="50" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="OU787CpGufShT57sqAW3-15" value="&lt;div style=&quot;text-align: center&quot;&gt;&lt;span&gt;头部字段 名：值 | 回车符 | 换行符&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;text-align: center&quot;&gt;&lt;span&gt;...&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;text-align: center&quot;&gt;头部字段 名：值 | 回车符 | 换行符&lt;br&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;align=left;fillColor=#f5f5f5;strokeColor=#666666;fontColor=#333333;" vertex="1" parent="1">
+          <mxGeometry x="160" y="1250" width="330" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="OU787CpGufShT57sqAW3-16" value="回车符 | 换行符" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#f5f5f5;strokeColor=#666666;fontColor=#333333;" vertex="1" parent="1">
+          <mxGeometry x="160" y="1300" width="90" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="OU787CpGufShT57sqAW3-17" value="数据" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#f5f5f5;strokeColor=#666666;fontColor=#333333;" vertex="1" parent="1">
+          <mxGeometry x="160" y="1330" width="330" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="OU787CpGufShT57sqAW3-18" value="响应数据" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;" vertex="1" parent="1">
+          <mxGeometry x="100" y="1330" width="60" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="OU787CpGufShT57sqAW3-19" value="HTTP/1.1 200 OK&lt;br&gt;Date: Tue, 10 Jul 2012 06:50:15 GMT&lt;br&gt;Content-Length: 362&lt;br&gt;Content-Type: text/html&lt;br&gt;&lt;br&gt;&amp;lt;html&amp;gt;&lt;br&gt;...&lt;br&gt;&amp;lt;/html&amp;gt;" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="520" y="1210" width="300" height="170" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
