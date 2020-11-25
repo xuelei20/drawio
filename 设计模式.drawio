@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2020-11-25T12:51:02.254Z" agent="5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/86.0.4240.198 Safari/537.36" etag="ZECAc31AGhRqrSUpFzdm" version="13.10.0" type="github">
+<mxfile host="app.diagrams.net" modified="2020-11-25T12:52:03.492Z" agent="5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/86.0.4240.198 Safari/537.36" etag="SDQIDF3U8w9NRqq2XGII" version="13.10.0" type="github">
   <diagram id="3RPK-Q5Vkmhw3wam3qYE" name="第 1 页">
     <mxGraphModel dx="1422" dy="794" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" background="none" math="0" shadow="0">
       <root>
@@ -152,25 +152,25 @@
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="48_SFCMGathIOX-qwge4-51" value="" style="shape=cylinder3;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;size=15;rotation=-90;" vertex="1" parent="1">
-          <mxGeometry x="326" y="670.5" width="28" height="58.5" as="geometry" />
+          <mxGeometry x="332.5" y="664" width="15" height="58.5" as="geometry" />
         </mxCell>
         <mxCell id="48_SFCMGathIOX-qwge4-62" value="" style="edgeStyle=none;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=classic;endFill=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="48_SFCMGathIOX-qwge4-52" target="48_SFCMGathIOX-qwge4-39">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="48_SFCMGathIOX-qwge4-52" value="" style="shape=cylinder3;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;size=15;rotation=-90;" vertex="1" parent="1">
-          <mxGeometry x="526" y="610.5" width="28" height="58.5" as="geometry" />
+          <mxGeometry x="532.5" y="617" width="15" height="58.5" as="geometry" />
         </mxCell>
         <mxCell id="48_SFCMGathIOX-qwge4-63" value="" style="edgeStyle=none;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=classic;endFill=1;" edge="1" parent="1" source="48_SFCMGathIOX-qwge4-53" target="48_SFCMGathIOX-qwge4-40">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="48_SFCMGathIOX-qwge4-53" value="" style="shape=cylinder3;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;size=15;rotation=-90;" vertex="1" parent="1">
-          <mxGeometry x="532" y="665.25" width="28" height="58.5" as="geometry" />
+          <mxGeometry x="538" y="659.25" width="16" height="58.5" as="geometry" />
         </mxCell>
         <mxCell id="48_SFCMGathIOX-qwge4-64" value="" style="edgeStyle=none;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=classic;endFill=1;" edge="1" parent="1" source="48_SFCMGathIOX-qwge4-54" target="48_SFCMGathIOX-qwge4-41">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="48_SFCMGathIOX-qwge4-54" value="" style="shape=cylinder3;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;size=15;rotation=-90;" vertex="1" parent="1">
-          <mxGeometry x="528" y="723.75" width="28" height="58.5" as="geometry" />
+          <mxGeometry x="535.5" y="716.25" width="13" height="58.5" as="geometry" />
         </mxCell>
         <mxCell id="48_SFCMGathIOX-qwge4-66" value="&lt;div style=&quot;text-align: left&quot;&gt;&lt;span&gt;观察者模式，是松耦合的关系。多用于单个应用内部。&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;text-align: left&quot;&gt;&lt;br&gt;&lt;/div&gt;&lt;div style=&quot;text-align: left&quot;&gt;&lt;span&gt;发布订阅模式，不存在耦合。更多是一种跨应用的模式，比如消息中间件。&lt;/span&gt;&lt;/div&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
           <mxGeometry x="523" y="446" width="211" height="104.5" as="geometry" />
