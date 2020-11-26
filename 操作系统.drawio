@@ -1,1 +1,64 @@
-<mxfile host="app.diagrams.net" modified="2020-11-26T04:01:03.269Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/87.0.4280.66 Safari/537.36" version="13.10.2" etag="xbaClZbKQ7rEii2Lifta" type="github"><diagram id="TR1PkqmSG5yijnE8JKpC">UzV2zq1wL0osyPDNT0nNUTV2VTV2LsrPL4GwciucU3NyVI0MMlNUjV1UjYwMgFjVyA2HrCFY1qAgsSg1rwSLBiADYTaQg2Y1AA==</diagram></mxfile>
+<mxfile host="app.diagrams.net" modified="2020-11-26T04:07:56.844Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/87.0.4280.66 Safari/537.36" etag="TnOGrrukP5DTtJfJJRwj" version="13.10.2" type="github">
+  <diagram id="TR1PkqmSG5yijnE8JKpC" name="第 1 页">
+    <mxGraphModel dx="1422" dy="794" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="AOJ-fux5bhsGqHTanZ15-1" value="资源调度" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontStyle=1" vertex="1" parent="1">
+          <mxGeometry x="390" y="40" width="60" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="AOJ-fux5bhsGqHTanZ15-2" value="操作系统内核" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f5f5f5;strokeColor=#666666;fontColor=#333333;" vertex="1" parent="1">
+          <mxGeometry x="160" y="80" width="520" height="460" as="geometry" />
+        </mxCell>
+        <mxCell id="AOJ-fux5bhsGqHTanZ15-3" value="进程A" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
+          <mxGeometry x="210" y="130" width="160" height="360" as="geometry" />
+        </mxCell>
+        <mxCell id="AOJ-fux5bhsGqHTanZ15-5" value="代码" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="230" y="143" width="50" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="AOJ-fux5bhsGqHTanZ15-7" value="数据" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="230" y="183" width="50" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="AOJ-fux5bhsGqHTanZ15-8" value="打开的文件" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="300" y="143" width="50" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="AOJ-fux5bhsGqHTanZ15-9" value="地址空间" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="300" y="183" width="50" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="AOJ-fux5bhsGqHTanZ15-10" value="线程1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
+          <mxGeometry x="230" y="230" width="120" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="AOJ-fux5bhsGqHTanZ15-11" value="线程2" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
+          <mxGeometry x="230" y="340" width="120" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="AOJ-fux5bhsGqHTanZ15-19" value="进程B" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
+          <mxGeometry x="470" y="130" width="160" height="360" as="geometry" />
+        </mxCell>
+        <mxCell id="AOJ-fux5bhsGqHTanZ15-20" value="线程2" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
+          <mxGeometry x="490" y="340" width="120" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="AOJ-fux5bhsGqHTanZ15-21" value="线程1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
+          <mxGeometry x="490" y="230" width="120" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="AOJ-fux5bhsGqHTanZ15-22" value="数据" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="489" y="184" width="50" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="AOJ-fux5bhsGqHTanZ15-23" value="地址空间" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="559" y="184" width="50" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="AOJ-fux5bhsGqHTanZ15-24" value="打开的文件" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="559" y="144" width="50" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="AOJ-fux5bhsGqHTanZ15-25" value="代码" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="489" y="144" width="50" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="AOJ-fux5bhsGqHTanZ15-26" value="协程" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;" vertex="1" parent="1">
+          <mxGeometry x="240" y="345" width="30" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="AOJ-fux5bhsGqHTanZ15-27" value="协程" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;" vertex="1" parent="1">
+          <mxGeometry x="310" y="345" width="30" height="40" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
