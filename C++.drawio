@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2020-11-27T12:22:25.682Z" agent="5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/86.0.4240.198 Safari/537.36" etag="EWlMu3-ZjxG438l471xG" version="13.10.3" type="github">
+<mxfile host="app.diagrams.net" modified="2020-11-27T13:36:34.753Z" agent="5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/86.0.4240.198 Safari/537.36" etag="lByq9GUi4fqETbmTLJil" version="13.10.3" type="github">
   <diagram id="40izqB6BGIC4OMMsTiOs" name="第 1 页">
     <mxGraphModel dx="1422" dy="794" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -69,6 +69,9 @@
         </mxCell>
         <mxCell id="rNgehleZL4jK99zWx5-W-1" value="proxy" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;" vertex="1" parent="1">
           <mxGeometry x="565" y="80" width="40" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="rNgehleZL4jK99zWx5-W-3" value="可能出现的内存问题：&lt;br&gt;1.缓冲区溢出&lt;br&gt;2.空悬指针/野指针&lt;br&gt;3.重复释放&lt;br&gt;4.内存泄露&lt;br&gt;5.不配对的new[]/delete&lt;br&gt;6.内存碎片" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;" vertex="1" parent="1">
+          <mxGeometry x="90" y="210" width="140" height="100" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
