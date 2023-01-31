@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2023-01-31T02:00:09.597Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/109.0.0.0 Safari/537.36" etag="dXtXRU5U5FGcBEkCAlKv" version="20.8.13" type="github">
+<mxfile host="app.diagrams.net" modified="2023-01-31T02:20:39.581Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/109.0.0.0 Safari/537.36" etag="OSUlZbGrqhNw8eDOAohU" version="20.8.13" type="github">
   <diagram id="yQU9XVNkyh9_PEf1FD41" name="Page-1">
-    <mxGraphModel dx="1195" dy="657" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="989" dy="543" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -717,22 +717,22 @@
         <mxCell id="3xdIrjbvfQRTIw6QENfw-45" value="同步IO" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;fontColor=#6666FF;" parent="1" vertex="1">
           <mxGeometry x="309" y="2960" width="50" height="20" as="geometry" />
         </mxCell>
-        <mxCell id="3xdIrjbvfQRTIw6QENfw-46" value="&lt;font&gt;水平触发(默认)：如果用户程序没做IO操作，以后每次epoll_wait()都会触发。编码更简单&lt;br&gt;边缘触发：&lt;/font&gt;&lt;span style=&quot;&quot;&gt;只触发一次。处理高并发，编码难度高，容易漏事件&lt;/span&gt;&lt;font&gt;&lt;br&gt;&lt;/font&gt;" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;fontColor=#6666FF;" parent="1" vertex="1">
+        <mxCell id="3xdIrjbvfQRTIw6QENfw-46" value="&lt;font&gt;水平触发(默认)：如果用户程序没做IO操作，以后每次epoll_wait()都会触发。编码更简单&lt;br&gt;边缘触发(高效模式)：&lt;/font&gt;&lt;span style=&quot;&quot;&gt;只触发一次。处理高并发，编码难度高，容易漏事件&lt;/span&gt;&lt;font&gt;&lt;br&gt;&lt;/font&gt;" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;fontColor=#6666FF;" parent="1" vertex="1">
           <mxGeometry x="337.33000000000004" y="2070" width="490" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="QwgzfFRiSenLqpD8TnNC-2" value="" style="endArrow=classic;startArrow=classic;html=1;rounded=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="HRSG6da-3cRrjabeF-wA-6" target="HRSG6da-3cRrjabeF-wA-7">
+        <mxCell id="QwgzfFRiSenLqpD8TnNC-2" value="" style="endArrow=classic;startArrow=classic;html=1;rounded=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" parent="1" source="HRSG6da-3cRrjabeF-wA-6" target="HRSG6da-3cRrjabeF-wA-7" edge="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
             <mxPoint x="440" y="1820" as="sourcePoint" />
             <mxPoint x="490" y="1770" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="QwgzfFRiSenLqpD8TnNC-4" value="" style="endArrow=classic;startArrow=classic;html=1;rounded=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="HRSG6da-3cRrjabeF-wA-7" target="HRSG6da-3cRrjabeF-wA-8">
+        <mxCell id="QwgzfFRiSenLqpD8TnNC-4" value="" style="endArrow=classic;startArrow=classic;html=1;rounded=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" parent="1" source="HRSG6da-3cRrjabeF-wA-7" target="HRSG6da-3cRrjabeF-wA-8" edge="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
             <mxPoint x="350" y="1620" as="sourcePoint" />
             <mxPoint x="520" y="1780" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="QwgzfFRiSenLqpD8TnNC-5" value="" style="endArrow=classic;startArrow=classic;html=1;rounded=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0.539;entryY=0.993;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="HRSG6da-3cRrjabeF-wA-8" target="HRSG6da-3cRrjabeF-wA-65">
+        <mxCell id="QwgzfFRiSenLqpD8TnNC-5" value="" style="endArrow=classic;startArrow=classic;html=1;rounded=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0.539;entryY=0.993;entryDx=0;entryDy=0;entryPerimeter=0;" parent="1" source="HRSG6da-3cRrjabeF-wA-8" target="HRSG6da-3cRrjabeF-wA-65" edge="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
             <mxPoint x="570" y="1780" as="sourcePoint" />
             <mxPoint x="620" y="1730" as="targetPoint" />
